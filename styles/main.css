@@ -1,20 +1,23 @@
 //* css starts here *//
+* {
+  box-sizing: border-box;
+  }
 
 body {
       font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
+      min-height: 100vh;     
 }
 
 main {
     min-height: 100px;
-    min-width: 100px;
-    background: lavender;
-    padding: 40px 20px;
-    border-radius: 5px;
-    box-shadow: 5px 55px 50px -20px #b6b6b6; 
+    min-width: 1rem;
+    background: lightblue;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    box-shadow: 5rem 55px 50px -20px #b6b6b6; 
 }
 
 h1 {
@@ -30,7 +33,8 @@ p {
 
 /* TODO: size images manually so this is not necessary */
 img {
-  max-height: 20rem;
+  max-height: 20rem; 
+/*  border-style: double; for some reason not able to add borders*/
 }
 
 /***************** NAV *****************/
@@ -39,7 +43,7 @@ nav1 a:hover {
   text-decoration: underline;
 }
 
-nav2 a:hover {
+products a:hover {
   text-decoration: underline;
 }
 
