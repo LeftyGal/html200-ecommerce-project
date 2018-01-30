@@ -1,10 +1,29 @@
+//* css starts here *//
+
 body {
-  font-size: 100%;
-  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+      font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+}
+
+main {
+    min-height: 100px;
+    min-width: 100px;
+    background: lavender;
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 55px 50px -20px #b6b6b6; 
+}
+
+h1 {
+  color: black;
+  text-align: center;
 }
 
 p {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   color: #2d2d2d;
 }
@@ -16,18 +35,25 @@ img {
 
 /***************** NAV *****************/
 
-nav a:hover {
+nav1 a:hover {
   text-decoration: underline;
 }
+
+nav2 a:hover {
+  text-decoration: underline;
+}
+
 
 /**************** HERO *****************/
 
 header img {
   max-height: 6rem;
+  text-align: center;
 }
 
 h1 .logo-w {
   font-size: 3.5rem;
+  text-align: center;
 }
 
 /**************** ASIDE ****************/
