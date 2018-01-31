@@ -41,6 +41,10 @@ nav1 a:hover {
   text-decoration: underline;
 }
 
+navbar-brand {
+  text-align: center;
+}
+
 products a:hover {
   text-decoration: underline;
 }
