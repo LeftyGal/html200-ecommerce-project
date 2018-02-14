@@ -28,6 +28,18 @@ img {
   max-height: 50vmin; 
 }
 
+/* not sure here*/
+/*
+img {
+  width: px;
+}
+@media (max-width: ) {
+  img {
+    width: ;
+  }
+}
+*/
+
 /***************** NAV *****************/
 
 navbar-brand {
@@ -77,9 +89,9 @@ h3 {
 }
 
 .footer {
-   position:static;
-   left: 10rem;
-   bottom: 20rem;
+   position: fixed;
+   left: 0rem;
+   bottom: 0rem;
    width: 100%;
    background-color: black;
    color: white;
@@ -88,6 +100,7 @@ h3 {
 
 #grad1 {
     height: 100%;
+    width: inherit;
     background: lavender; /* For browsers that do not support gradients */
-    background: linear-gradient(to bottom right, white, purple); /* Standard syntax (must be last) */
+    background: linear-gradient(to bottom right, white, purple); 
 }
