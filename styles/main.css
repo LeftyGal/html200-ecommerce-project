@@ -7,7 +7,7 @@ body {
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      background-color: lavender;
+      /*background-color: lavender;*/
       border: solid black;
       padding-bottom: 5rem;
 }
@@ -77,11 +77,17 @@ h3 {
 }
 
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
+   position:static;
+   left: 10rem;
+   bottom: 20rem;
    width: 100%;
    background-color: black;
    color: white;
    text-align: center;
+}
+
+#grad1 {
+    height: 100%;
+    background: lavender; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom right, white, purple); /* Standard syntax (must be last) */
 }
