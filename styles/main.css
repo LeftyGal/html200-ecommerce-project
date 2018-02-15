@@ -24,7 +24,7 @@ p {
 }
 
 /* TODO: size images manually so this is not necessary */
-
+/*frustrated here because when I take this out  it it makes the images overlap*/
 img {
   max-height: 50vmin; 
 }
