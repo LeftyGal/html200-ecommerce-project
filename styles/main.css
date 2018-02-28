@@ -30,6 +30,14 @@ p {
   font-weight: lighter;
   color: #2d2d2d;
 }
+@media only screen and (min-width: 249px) and (max-width: 781px){
+  .img {
+    display: block;
+   text-align: center;
+    font-size: 14px;
+    margin: auto;
+  }
+}
 
 /* TODO: size images manually so this is not necessary */
 /*frustrated here because when I take this out  it it makes the images overlap*/
@@ -41,9 +49,8 @@ img {
   .img {
     display: block;
     align-items: center;
-    width:
-    margin-left:
-    margin-right:
+    align-content: center;
+    width: 50%;
   }
 }
 
@@ -112,6 +119,14 @@ input[type="submit"] {
 }
 
 /*********** PRODUCTS SECTION ***********/
+
+@media only screen and (max-width: 953px) {
+    /* For mobile phones: */
+.col-sm-4 {
+        width: 50%;
+        text-align: center;
+    }
+}
 
 section {
   padding: 0 .75rem;
