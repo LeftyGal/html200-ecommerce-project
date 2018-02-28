@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" type="text/css" media="print" href="styles/print.css">
   
   <!-- future magnifier tool -->
   
@@ -184,12 +185,27 @@
       <script src="js/script.js"></script>
       
         <div class="footer">
-         <form>
-            <label> Sign up for our mailing list:
-              <input type="email" name="email">
-              </label>
-           <input type="submit" value="Submit">
-          </form>
+    <form name="custInfo" onsubmit="myFunction()">
+  Enter Name: <input type="text" name="firstname">
+  Enter email addrees: <input type="email" name="email">
+  <input type="submit" value="Submit">
+    </form>
+          
+          
+    <script>
+  
+  function myFunction(){
+  event.preventDefault()
+  console.log("form submitted")
+ 
+  var theName = document.custInfo.name.value
+  var email = document.custInfo.email.value
+  console.log(theName + email )
+  console.log("Thanks for signing up for our mailing list " + email );
+  
+    alert("Thanks for signing up for our mailing list " + email );
+  }
+    </script>
       </div>
     </div>
   </div>

@@ -1,4 +1,4 @@
-/* css start here */
+/* css starts here */
 
 
 body {
@@ -10,6 +10,14 @@ body {
       /*background-color: lavender;*/
       border: solid black;
       padding-bottom: 2rem;
+}
+
+@media only screen (max-width: 600px) and (max-width: 768){
+  .body{
+    display: block;
+    width: 90%;
+    font-size: 125%;
+  }
 }
 
 h1 {
@@ -29,11 +37,39 @@ img {
   max-height: 50vmin; 
 }
 
+@media only screen and (min-width: 249px) and (max-width: 781px){
+  .img {
+    display: block;
+    align-items: center;
+    width:
+    margin-left:
+    margin-right:
+  }
+}
+
+/*for narrower screens*/
+//*@media (min-width: 600px) and (max-width: 1280px) {*//
+//*.img { //
+    max-width: 100%;
+    height: auto;
+}
+}
+*//
 /***************** NAV *****************/
 
 navbar-brand {
   text-align: center;
+  font color: white;
 }
+
+@media only screen and (min-width:261pc) and (max-width:823px) {
+  .navbar navbar-inverse .navbar-brand{
+    text-align: center;
+    display: block;
+  } 
+}
+    
+
 
 /**************** HERO *****************/
 
@@ -47,6 +83,23 @@ h1 .logo-w {
   text-align: center;
 }
 
+ /* Resize logo name when screen reduces */
+
+  @media screen and (min-width:320px) and (max-width: 960px) {
+    .logo-w {
+      width: ;
+      height: ;
+     
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+    .logo-w {
+     
+      
+    }
+  }
+
 /**************** ASIDE ****************/
 
 input[type="submit"] {
@@ -55,7 +108,7 @@ input[type="submit"] {
   border: 1px solid #3D7FCF;
   border-radius: 5px;
   font-size: .75rem;
-  color: white;
+  color: black;
 }
 
 /*********** PRODUCTS SECTION ***********/
@@ -85,7 +138,19 @@ h3 {
    background-color: black;
    color: white;
    text-align: center;
+    border: solid black;
+    font: black;
 }
+
+/* Resize footer */
+
+  @media screen and (min-width: 372px) and (max-width: 726px) {
+    .footer {
+      text-align: center;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+  }
 
 #grad1 {
     height: 100%;
@@ -93,10 +158,4 @@ h3 {
     background: lavender; /* For browsers that do not support gradients */
     background: linear-gradient(to bottom right, white, purple); 
 }
- /*for narrower screens*/
-@media (min-width: 600px) and (max-width: 1280px) {
-img {
-    max-width: 100%;
-    height: auto;
-}
-}
+ 
