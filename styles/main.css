@@ -1,5 +1,10 @@
 /* css starts here */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 body {
       font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
@@ -69,8 +74,26 @@ navbar-brand {
   font color: white;
 }
 
-@media only screen and (min-width:261pc) and (max-width:823px) {
-  .navbar navbar-inverse .navbar-brand{
+
+@media only screen and (min-width: 261px) and (max-width: 823px) {
+  .navbar navbar-inverse {
+    text-align: center;
+    display: block;
+  } 
+}
+
+ul. nav navbar-nav { text-align: center; }
+
+
+@media only screen and (min-width: 248px) and (max-width: 649px) {
+  .navbar navbar-inverse {
+    text-align: center;
+    display: block;
+  } 
+}
+
+@media only screen and (min-width:261px) and (max-width:823px) {
+  .navbar navbar-inverse {
     text-align: center;
     display: block;
   } 
@@ -107,6 +130,12 @@ h1 .logo-w {
     }
   }
 
+.logo-w {
+max-width: 100%;
+height: auto !important;
+}
+
+
 /**************** ASIDE ****************/
 
 input[type="submit"] {
@@ -124,7 +153,6 @@ input[type="submit"] {
 @media only screen and (max-width: 953px) {
     /* For mobile phones: */
 .col-sm-4 {
-        width: 50%;
         text-align: center;
     }
 }
