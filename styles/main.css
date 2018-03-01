@@ -203,3 +203,7 @@ h3 {
     background: linear-gradient(to bottom right, white, purple); 
 }
  
+.checked {
+    color: orange;
+    text-align: center;
+  align-content: center;}
