@@ -1,6 +1,35 @@
 // As an extra challenge, you can build the product listings
 // by looping over this array and creating HTML for each element.
 // This will be best accomplished after we do lesson 09.
+
+
+///js for email subscription and console message////
+  function myFunction(){
+  event.preventDefault()
+  console.log("form submitted")
+ 
+  var theName = document.custInfo.name.value
+  var email = document.custInfo.email.value
+  console.log(theName + email )
+  console.log("Thanks for signing up for our mailing list " + email );
+  
+    alert("Thanks for signing up for our mailing list " + email );
+  }
+
+//js for updating cart//
+var cart= [];
+
+function addToCart(cart) {
+  var i = newCart.indexOf(cart)
+  if (i == -1){
+  a.push(cart)  
+ console.log (cart.length)
+  } else {
+    newArr.splice(i,1)
+    console.log(cart.length)
+  }
+}
+
 var products = [
   {
     "name": "Reversible Plaid",

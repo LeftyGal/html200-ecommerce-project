@@ -28,46 +28,32 @@
       </div>
   
   <div id="grad1">
-  <div class="logo">
-    <h1><span class="logo-w">W</span>inter
-      <span class="logo-w">W</span>ear
-      <span class="logo-w">W</span>arehouse
-      
-      <!--this is what I started with -->
-      <!-- <img src="images/logo-scarfcat.png" alt="dapper cartoon cat wearing a scarf">     </h1>
-        <img srcset="logo-scarfcat-1280w.jpg 1280w, 
-                     logo-scarfcat-320w.jpg 320w, 
-                     logo-scarfcat-160w.jpg 160w,"
-              sizes="(max-width: 1280px) 1240px,
-                      (max-width: 160px) 120px,
-                      800px"
-              src="images/logo-scarfcat-1280w.jpg" alt="dapper cartoon cat wearing a scarf"> -->
-      
+    <div class="logo">
+      <h1><span class="logo-w">W</span>inter
+        <span class="logo-w">W</span>ear
+        <span class="logo-w">W</span>arehouse
+        
     <!-- logo is 640x1280 -->
-      <img src="/images/logo-scarfcat.png" srcset="images/logo-scarfcat-120w.jpg 120w, images/logo-scarfcat-320.jpg 320w, images/logo-scarfcat-1280w.jpg 1280w" sizes="(min-width: 700px) 351px, (max-width: 699px) 150px, 100px" alt="dapper cartoon wearing a scarf"> </h1>
-  
-             
+      <img src="/images/logo-scarfcat.png" srcset="images/logo-scarfcat-120w.jpg 120w, images/logo-scarfcat-320.jpg 320w, images/logo-scarfcat-1280w.jpg 1280w" sizes="(min-width: 700px) 351px, (max-width: 699px) 150px, 100px" alt="dapper cartoon wearing a scarf">     </h1>
+            
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <ul class="nav navbar-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Hats</a></li>
-      <li><a href="#">Gloves</a></li>
-      <li><a href="#">Scarves</a></li>
-        </ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Hats</a></li>
+        <li><a href="#">Gloves</a></li>
+        <li><a href="#">Scarves</a></li>
+      </ul>
     
       <ul class="nav navbar-nav navbar-right">
-      <li><input type="text" name="search" placeholder="Search.."></li>
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
+        <li><input type="text" name="search" placeholder="Search.."></li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
           </div>
-    <form>
-            
-          </form>
             </nav>
     
     <div class="product container">
@@ -81,8 +67,13 @@
             <p>$26.99</p>
       
         <div class ="cart-info">
-          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <button type="button" onclick="addToCart('Reversable Plaid')">
+            <span class="glyphicon glyphicon-plus"></span></button>
+              <button type="button" onclick="removeFromCart('Reversable Plaid')">
+                <span class="glyphicon glyphicon-minus"></span>
+                  </button>
             </div> 
+          
                 <h5>Rating</h5>
                   <span class="fa fa-star checked"></span>
                   <span class="fa fa-star"></span>
@@ -90,7 +81,6 @@
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span> 
         </div>
-        
 
         <div class="col-sm-4">
           <h3>Fringed Plaid</h3>
@@ -100,16 +90,21 @@
             <p>Generously sized, extra soft and featuring a dazzling fringe, this scarf is rendered in a versatile gray, black and white plaid. Expertly beat the cold with style. 100% acrylic.</p>
             <p>$18.99</p>
           
-          <div class ="cart-info">
-          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-            </div>
-                  <h5>Rating</h5>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span> 
-          </div>
+         <div class ="cart-info">
+          <button type="button" onclick="addToCart('Fringed Plaid')">
+            <span class="glyphicon glyphicon-plus"></span></button>
+              <button type="button" onclick="removeFromCart('Fringed Plaid')">
+                <span class="glyphicon glyphicon-minus"></span>
+                  </button>
+            </div> 
+          
+                <h5>Rating</h5>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span> 
+        </div>
       
       <div class="col-sm-4">
           <h3>Multi Color</h3>
@@ -120,16 +115,21 @@
             <p>$22.99</p>
         
         <div class ="cart-info">
-          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <button type="button" onclick="addToCart('Multi Color')">
+            <span class="glyphicon glyphicon-plus"></span></button>
+              <button type="button" onclick="removeFromCart('Multi Color')">
+                <span class="glyphicon glyphicon-minus"></span>
+                  </button>
             </div>
-                  <h5>Rating</h5>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span> 
-              </div>
+          
+                <h5>Rating</h5>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span> 
         </div>
+          </div>
              
       <div class="row">  
         <div class="col-sm-4">
@@ -141,17 +141,20 @@
             <p>$29.99</p>
                 
             <div class ="cart-info">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <button type="button" onclick="addToCart('Northern Lights')">
+            <span class="glyphicon glyphicon-plus"></span></button>
+              <button type="button" onclick="removeFromCart('Northern Lights')">
+                <span class="glyphicon glyphicon-minus"></span>
+                  </button>
             </div>
-                <h5>Rating</h5>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
+              <h5>Rating</h5>
                   <span class="fa fa-star checked"></span>
                   <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span> 
-              </div>
-    
-    
+        </div>
+
       <div class="col-sm-4">
         <h3>Ombre Infinity</h3> 
           <img src="images/ombre-infinity-320w.jpg" 
@@ -161,12 +164,16 @@
             <p>$11.99</p>  
           
         <div class ="cart-info">
-          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <button type="button" onclick="addToCart('Infinity')">
+            <span class="glyphicon glyphicon-plus"></span></button>
+              <button type="button" onclick="removeFromCart('Infinity')">
+                <span class="glyphicon glyphicon-minus"></span>
+                  </button>
             </div>
-                <h5>Rating</h5>
+              <h5>Rating</h5>
                   <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span> 
         </div>
@@ -181,14 +188,18 @@
               <p>$70.99</p>
             
             <div class ="cart-info">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <button type="button" onclick="addToCart('Ashby Twill')">
+            <span class="glyphicon glyphicon-plus"></span></button>
+              <button type="button" onclick="removeFromCart('Ashby Twill')">
+                <span class="glyphicon glyphicon-minus"></span>
+                  </button>
             </div>
                 <h5>Rating</h5>
                   <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
                   <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>   
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span> 
         </div>
       </div>
   
@@ -202,15 +213,19 @@
             <p>$49.99</p>
            
            <div class ="cart-info">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <button type="button" onclick="addToCart('Wool Cable Knit')">
+                <span class="glyphicon glyphicon-plus"></span></button>
+                  <button type="button" onclick="removeFromCart('Wool Cable Knit')">
+                    <span class="glyphicon glyphicon-minus"></span>
+                </button>
             </div>
-                <h5>Rating</h5>
+              <h5>Rating</h5>
                   <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span> 
-              </div>
+          </div>
         
           <div class="col-sm-4">
               <h3>Etro Paisley-Print Silk</h3>
@@ -221,15 +236,19 @@
                 <p>$26.99</p>  
         
             <div class ="cart-info">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <button type="button" onclick="addToCart('Etro Paisley-Print Silk')">
+            <span class="glyphicon glyphicon-plus"></span></button>
+              <button type="button" onclick="removeFromCart('Etro Paisley-Print Silk')">
+                <span class="glyphicon glyphicon-minus"></span>
+                  </button>
             </div>
-                <h5>Rating</h5>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
+              <h5>Rating</h5>
                   <span class="fa fa-star checked"></span>
                   <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span> 
-              </div>
+        </div> 
         
         <div class="col-sm-4">
               <h3></h3>
@@ -247,21 +266,8 @@
   <input type="submit" value="Submit">
     </form>
           
-          
-    <script>
-  
-  function myFunction(){
-  event.preventDefault()
-  console.log("form submitted")
- 
-  var theName = document.custInfo.name.value
-  var email = document.custInfo.email.value
-  console.log(theName + email )
-  console.log("Thanks for signing up for our mailing list " + email );
-  
-    alert("Thanks for signing up for our mailing list " + email );
-  }
-    </script>
+    <script src="js/script.js"></script>
+              
       </div>
     </div>
   </div>
