@@ -70,3 +70,44 @@ Each weekly assignment will be graded independently. There will not be a final g
 
 ## Testing
 [update this section with information about the testing steps you took to ensure site quality]
+
+## UserDemographics
+Gender: All
+Age: Varies, from early 20’s to …..
+Location: Worldwide
+Income: Wide range
+Education level:  Varied
+Marital or family status: Varied
+Occupation: Varied
+Ethnic background: Varied
+
+Usage trends
+Location: Worldwide
+Time spent online : varies
+Loyalty/Incentive/Reason: discount for certain purchases or buying more than one product. 
+
+
+Values and attitudes
+Media: Active role in social media 
+Activities: Varies
+Needs: interested in clothes, being well dressed, 
+Desires: wants to look well dressed
+Personality: varies but fun, one who enjoys mixing it up
+Attitudes: Positive
+Values: values a good price or bargain and valued well made products and materials. 
+Interests/hobbies: varied
+Lifestyle: active 
+
+
+Product Knowledge and tasks
+Product knowledge: buyers aware of current trends and costs and materials
+Competitive awareness: Internet
+Order method: easy, fast, find easier ways to make purchasing easier on the go.
+
+
+Goals of Website
+Short term: Advertise online via social  media
+Long term: continually add products and change layout often and keep updating products
+Motivation: 
+Success outcomes : $$$$ more products, add new types of product.
+
