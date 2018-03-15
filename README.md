@@ -119,13 +119,13 @@ Android Operating Systems
  I tested in (1)Sydney (Australia), (2)Tokyo, Japan (Asia), (3)Rose Hill, Mauritus (Africa), (4)Instabul, Turkey (Middle East), (5)Sao Paolo, Brazil (South America), (6) Prague Czech Republic (Europe), (7) Manchester UK (Europe), (8) Toronto, Canada (North America)and last (9) Clifton, NJ (North America).
 
 - 1 Doc complete 2.38s Fully Loaded 2.417s
-- 2              2.195s              2.25
+- 2              2.195s              2.25s
 - 3              2.978s              3.105
-- 4               2.334s              2.422s
+- 4              2.334s              2.422s
 - 5              2.297s              2.469s
-- 6              2.191s              2.248
+- 6              2.191s              2.248s
 - 7              1.37s               1.623s
-- 8              2.286               2.374s
+- 8              2.286s              2.374s
 - 9              2.9122s             2.247s
 
 Overall, I did not expect huge discrepancies but expected some cities to have faster loading times. I was surprised that Tokyo (2) was not faster than Manchester (7). 
