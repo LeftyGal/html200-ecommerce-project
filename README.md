@@ -71,16 +71,18 @@ Each weekly assignment will be graded independently. There will not be a final g
 ## Testing Part I
 [update this section with information about the testing steps you took to ensure site quality]
 
--Used both Responsive WEB Design Checker and Web Page Test to test site both on various devices and on various web browsers in various locations around the world. 
+- Used both Responsive WEB Design Checker and Web Page Test to test site both on various devices and on various web browsers in various locations around the world. I tested on 15 devices total, these varied both in size and operating systems. I tested on sizes that  mirrorred the breakpoints of the webiste after using the dev tools in Chrome. 
 
--I tested on 15 devices total, these varied both in size and operating systems. I tested on sizes that  mirrorred the breakpoints of the webiste after using the dev tools in Chrome. 
+## Laptops/Desktops
 
-Laptops/Desktops
+- 24" Desktop 1920x1200 - 1st row and 2nr row lose margin formating, all modules next to each other
 
-24" Desktop 1920x1200 - 1st row and 2nr row lose margin formating, all modules next to each other
-19" Deskstop 1600x900 - 2nd row, all modules together 
-15" Notebook 1366x768 - Right side modules extend beyond border
-13" Notebook 1024x800 -Module spacing incosistent
+- 19" Deskstop 1600x900 - 2nd row, all modules together 
+
+- 15" Notebook 1366x768 - Right side modules extend beyond border
+
+- 13" Notebook 1024x800 -Module spacing incosistent
+
 10" Notebook 1024x600 - No issues
 
 Tablets
