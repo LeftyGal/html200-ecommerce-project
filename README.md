@@ -71,9 +71,9 @@ Each weekly assignment will be graded independently. There will not be a final g
 ## Testing Part I
 [update this section with information about the testing steps you took to ensure site quality]
 
-Used both Responsive WEB Design Checker and Web Page Test to test site both on various devices and on various web browsers in various locations around the world. 
+-Used both Responsive WEB Design Checker and Web Page Test to test site both on various devices and on various web browsers in various locations around the world. 
 
-I tested on 15 devices total, these varied both in size and operating systems. I tested on sizes that  mirrorred the breakpoints of the webiste after using the dev tools in Chrome. 
+-I tested on 15 devices total, these varied both in size and operating systems. I tested on sizes that  mirrorred the breakpoints of the webiste after using the dev tools in Chrome. 
 
 Laptops/Desktops
 
