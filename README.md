@@ -135,7 +135,7 @@ I also need to look at all the images and make sure they are rendering and are r
 A lot of informaiton was given in the results when using the webpagetest site and I would like to know more about what it all means.
 
 ## UserDemographics
-Gender: All
+*Gender: All
 Age: Varies, from early 20’s to …..
 Location: Worldwide
 Income: Wide range
@@ -168,12 +168,12 @@ Competitive awareness: Internet
 Order method: easy, fast, find easier ways to make purchasing easier on the go.
 
 Devices Used to Access Website
-Smartphone/Tablet/Desktop Computer/Laptop Cumputer
+*Smartphone/Tablet/Desktop Computer/Laptop Cumputer
 
-OS
-IOS
-Android
-Other
+*OS
+*IOS
+*Android
+*Other
 
 Goals of Website
 Short term: Advertise online via social  media
