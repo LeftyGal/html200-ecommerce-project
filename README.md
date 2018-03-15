@@ -119,14 +119,14 @@ Android Operating Systems
  I tested in (1)Sydney (Australia), (2)Tokyo, Japan (Asia), (3)Rose Hill, Mauritus (Africa), (4)Instabul, Turkey (Middle East), (5)Sao Paolo, Brazil (South America), (6) Prague Czech Republic (Europe), (7) Manchester UK (Europe), (8) Toronto, Canada (North America)and last (9) Clifton, NJ (North America).
 
 - 1 Doc complete 2.38s Fully Loaded 2.417s
-- 2.              2.195s              2.25
-- 3.              2.978s              3.105
+- 2              2.195s              2.25
+- 3              2.978s              3.105
 - 4               2.334s              2.422s
-- 5.              2.297s              2.469s
-- 6.              2.191s              2.248
-- 7.              1.37s               1.623s
-- 8.              2.286               2.374s
-- 9.              2.9122s             2.247s
+- 5              2.297s              2.469s
+- 6              2.191s              2.248
+- 7              1.37s               1.623s
+- 8              2.286               2.374s
+- 9              2.9122s             2.247s
 
 Overall, I did not expect huge discrepancies but expected some cities to have faster loading times. I was surprised that Tokyo (2) was not faster than Manchester (7). 
 In reading the rest of the performance results I noticed that first it loaded text and then the images. Or at least some images loaded faster than others. 
@@ -135,49 +135,56 @@ I also need to look at all the images and make sure they are rendering and are r
 A lot of informaiton was given in the results when using the webpagetest site and I would like to know more about what it all means.
 
 ## UserDemographics
-*Gender: All
-Age: Varies, from early 20’s to …..
-Location: Worldwide
-Income: Wide range
-Education level:  Varied
-Marital or family status: Varied
-Occupation: Varied
-Ethnic background: Varied
+
+- Gender: All
+- Age: Varies, from early 20’s to …..
+- Location: Worldwide
+- Income: Wide range
+- Education level:  Varied
+- Marital or family status: Varied
+- Occupation: Varied
+- Ethnic background: Varied
 
 Usage trends
-Location: Worldwide
-Time spent online : varies
-Loyalty/Incentive/Reason: discount for certain purchases or buying more than one product. 
+
+- Location: Worldwide
+- Time spent online : varies
+- Loyalty/Incentive/Reason: discount for certain purchases or buying more than one product. 
 
 
 Values and attitudes
-Media: Active role in social media 
-Activities: Varies
-Needs: interested in clothes, being well dressed, 
-Desires: wants to look well dressed
-Personality: varies but fun, one who enjoys mixing it up
-Attitudes: Positive
-Values: values a good price or bargain and valued well made products and materials. 
-Interests/hobbies: varied
-Lifestyle: active 
+
+- Media: Active role in social media 
+- Activities: Varies
+- Needs: interested in clothes, being well dressed, 
+- Desires: wants to look well dressed
+- Personality: varies but fun, one who enjoys mixing it up
+- Attitudes: Positive
+- Values: values a good price or bargain and valued well made products and materials. 
+- Interests/hobbies: varied
+- Lifestyle: active 
 
 
 Product Knowledge and tasks
-Product knowledge: buyers aware of current trends and costs and materials
-Competitive awareness: Internet
-Order method: easy, fast, find easier ways to make purchasing easier on the go.
+
+- Product knowledge: buyers aware of current trends and costs and materials
+- Competitive awareness: Internet
+- Order method: easy, fast, find easier ways to make purchasing easier on the go.
 
 Devices Used to Access Website
+
 *Smartphone/Tablet/Desktop Computer/Laptop Cumputer
 
-*OS
-*IOS
-*Android
-*Other
+OS
+
+- IOS
+- Android
+-Other
 
 Goals of Website
-Short term: Advertise online via social  media
-Long term: continually add products and change layout often and keep updating products
-Motivation: 
-Success outcomes : $$$$ more products, add new types of product.
+
+- Short term: Advertise online via social  media
+- Long term: continually add products and change layout often and keep updating products
+- Motivation: successful business
+- Success outcomes : $$$$ more products, add new types of product.
 
