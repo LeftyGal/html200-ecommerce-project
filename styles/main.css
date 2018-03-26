@@ -195,7 +195,13 @@ h3 {
    text-align: center;
     border: solid black;
     font: black;
+  
 }
+
+.footer input {
+  color: black;
+}
+
 
 /* Resize footer */
 
