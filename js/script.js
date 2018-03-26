@@ -69,12 +69,14 @@ var products = [
 var cart = [];
 
 function addToCart(name) {
-  var i = cart.indexOf(cart)
+  //var i = cart.indexOf(cart)
+  var i = cart.indexOf(name)
   if (i == -1){
   cart.push(name)  
  console.log(cart.length)
   } else {
-    newArr.splice(i,1)
+    //newArr.splice(i,1)
+    cart.splice(i.1)
     console.log(cart.length)
   }
 }
