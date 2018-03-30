@@ -65,20 +65,31 @@ var products = [
     alert("Thanks for signing up for our mailing list " + email );
   }
 
-//js for updating cart//
-var cart = [];
+//js for updating cart
 
-function addToCart(name) {
-  //var i = cart.indexOf(cart)
-  var i = cart.indexOf(name)
-  if (i == -1){
-  cart.push(name)  
- console.log(cart.length)
-  } else {
-    //newArr.splice(i,1)
-    cart.splice(i.1)
-    console.log(cart.length)
+//Init array for shopping cart contents
+var cart = [
+  
+]
+
+// Empty cart at start
+var startPrice = 0
+
+//function to add and remove items in cart
+
+function cartAdd(item) {
+  var i = cart.indexOf(item)
+  if (i == -1) {
+    cart.push(item)
+    console.log(item + " has been added to your cart.")
+    console.log("You have " + cart.length + " items in the cart.")
+  }
+  //If yes, remove item
+  else {
+    
+    //Remove 1 item from the index of the chosen item
+    cart.splice(i, 1)
+    console.log(item + " has been removed from your cart.")
+    console.log("You have " + cart.length + " items in the cart.")
   }
 }
-
-
